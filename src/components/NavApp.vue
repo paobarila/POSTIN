@@ -19,33 +19,29 @@ import { RouterLink } from 'vue-router';
       <div class="offcanvas-body">
         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
           <li class="nav-item">
-            <RouterLink to="/"><i class="bi bi-house-door fs-2">  Home</i></RouterLink>
+            <RouterLink active_class="active" to="/"><i class="bi bi-house-door fs-2">  Home</i></RouterLink>
           </li>
           <li class="nav-item">
-            <RouterLink to="/postin"><i class="bi bi-chat-square-heart fs-2">  Postin</i></RouterLink>
+            <RouterLink active_class="active" to="/postin"><i class="bi bi-chat-square-heart fs-2">  Postin</i></RouterLink>
           </li>
           <li class="nav-item">
-            <RouterLink to="/login"><i class="bi bi-person fs-2">  Login</i></RouterLink>
+            <RouterLink active_class="active" to="/login"><i class="bi bi-person fs-2">  Login</i></RouterLink>
           </li>
           
           <li class="nav-item">
-            <RouterLink to="/about"><i class="bi bi-file-person fs-2">  About us</i></RouterLink>
+            <RouterLink active_class="active" to="/about"><i class="bi bi-file-person fs-2">  About us</i></RouterLink>
           </li>
      
           <li class="nav-item">
-            <RouterLink to="/rules"><i class="bi bi-list-check fs-2">  Rules</i></RouterLink>
+            <RouterLink active_class="active" to="/rules"><i class="bi bi-list-check fs-2">  Rules</i></RouterLink>
           </li>
           <li class="nav-item">
-            <RouterLink to="/contact"><i class="bi bi-envelope-paper-heart fs-2">  Contact</i></RouterLink>
+            <RouterLink  active_class="active" to="/contact"><i class="bi bi-envelope-paper-heart fs-2">  Contact</i></RouterLink>
           </li>
           <li class="nav-item">
             <RouterLink to="/work"><i class="bi bi-person-workspace fs-2">  Work whit us</i></RouterLink>
           </li>
-          <li class="nav-item">
-            <RouterLink to="/comment"><i class="bi bi-person-workspace fs-2">  Work whit us</i></RouterLink>
-          </li>
-                </ul>
-        
+          </ul>
       </div>
     </div>
   </div>
@@ -90,13 +86,16 @@ import { RouterLink } from 'vue-router';
 i{
   text-decoration: none;
   color: white;
-
 }
+ nav-item{
+border-bottom: none;
+ }
 /*.btn{
-background-color: coral;
+background-color: coral; 
 color: white;
 }*/
-li{
+ ul li{
   margin-bottom: 1rem;
+  list-style: none;
 }
 </style>

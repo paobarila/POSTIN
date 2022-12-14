@@ -1,7 +1,6 @@
 <script setup>
 import NavApp from '../components/NavApp.vue';
 import FormApp from '../components/FormApp.vue';
-
 </script>
 
 <template>

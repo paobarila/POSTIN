@@ -24,8 +24,8 @@
   <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
 </div>
 <div class="mb-3">
-  <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Text here"></textarea>
 </div>
 <div class="col-12">
     <button class="btn btn-primary" type="submit">Submit form</button>
@@ -53,7 +53,8 @@
 
 <style scoped>
 .supercaja{
-  background-color: #f2deba;
+  margin-top:9rem;
+  background-color:#fcddb0;
 }
 .caja5{
 margin-left: 3rem;

@@ -4,10 +4,10 @@ import { RouterLink } from 'vue-router';
 
 <template>
   <main>
-  <figure class="figure">
-  <img src="../assets/images/postin1.png" class="figure-img img-fluid rounded" alt="...">
-</figure>
+   <div class="hola">
+<h1 class="text-center diplay-5 fst-italic">Welcome to POSTIN</h1>
 <h2 class="text-center mb-5 display-5 fst-italic text-wrap">Find post about everything that interests you:</h2>
+</div>
 <article class="seccion1 d-flex text-end flexwrap-wrap justify-content-evenly p-2">
  <RouterLink to="/postin"> <img class="circulo" src="../assets/images/yoga.png" alt="yoga"></RouterLink>
 <div> <h4 class="text-start display-6"> Life Style:</h4> <p class="text-center fs-5 fst-italic">Tips to improve your health, physical and mental.</p></div>
@@ -34,14 +34,15 @@ import { RouterLink } from 'vue-router';
 </main>
 </template>
 <style scoped>
-main{
- background-color: #f2deba;
+
+.hola{
+margin-top: 10rem;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color:#d61c4e;
+font-variant: initial;
+
 }
-figure > img{
-  height: 30rem;
-padding-top: 8rem;
-width: 30rem;
-}
+
 h2{
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
   color: #495c83;
@@ -64,7 +65,7 @@ padding-right: 2rem;
   border-radius: 50%;
 }
 .circulo:hover{
-  transform:scale(1.2) ;
+  transform:scale(1.15) ;
 }
 .logoPie{
   width: 100%;

@@ -6,7 +6,7 @@ import { RouterLink } from 'vue-router';
 </script>
 
 <template>
-    <nav>
+    <nav class="footer">
 <div class="d-flex justify-content-evenly w-100">
         <RouterLink to="/"><i class="bi bi-house-door fs-2 m-4"></i></RouterLink>
         <RouterLink to="/postin"><i class="bi bi-chat-square-heart fs-2 m-4"></i></RouterLink>
@@ -28,4 +28,5 @@ div{
 i {
     color: white;
 }
+
 </style>

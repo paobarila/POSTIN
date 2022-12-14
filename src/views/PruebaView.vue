@@ -1,7 +1,10 @@
 <script setup>
-import CommentApp from '../components/CommentApp.vue';
+import PostItem from '../components/PostItem.vue';
+
+
+
 
 </script>
 <template>
-    <CommentApp />
+
 </template>

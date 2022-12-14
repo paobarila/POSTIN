@@ -6,9 +6,9 @@
 
 <template>
     <div class="todo">
-    <h1 class=" w-75 text-center display-6 p-2">Do you want to work with us?</h1>
-<h1 class=" w75 text-center display-6 p-2 mb-4">Complete the form to apply for new positions:</h1>
-    <form class="row g-3 w-75 p-3 ms-5">
+    <h1 class="text-center display-6 wx-auto fst-italic">Do you want to work with us?</h1>
+<h1 class="text-center p-2 mb-4 text-wrap mx-auto">Complete the form to apply for new positions:</h1>
+    <form class="row g-3 w-75 p-3 mx-auto">
   <div class="col-md-4">
     <label for="validationDefault01" class="form-label">First name</label>
     <input type="text" class="form-control" id="validationDefault01" value="Mark" required>
@@ -66,8 +66,11 @@
 </template>
 <style scoped>
 .todo{
+   margin-top: 9rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color:#fcddb0;
+    padding: 2rem;
+    margin-bottom: 2rem;
 }
 input{
     border-inline-color:#256d85 ;
